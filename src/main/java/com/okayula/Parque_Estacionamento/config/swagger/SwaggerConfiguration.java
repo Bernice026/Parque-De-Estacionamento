@@ -18,12 +18,8 @@ public class SwaggerConfiguration {
 				.apis(RequestHandlerSelectors.any())
 				.paths(PathSelectors.any())
 				.build();
-				
-		
 		
 	}
-
 	
 	//http://localhost:8820/swagger-ui.html
-	
 }
