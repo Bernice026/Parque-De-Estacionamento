@@ -9,6 +9,7 @@ import com.okayula.Parque_Estacionamento.modelo.ParametrizacaoPagamento;
 public interface ParametrizacaoPagamentoRepository extends JpaRepository<ParametrizacaoPagamento, Long>{
 
 	List<ParametrizacaoPagamento> findByFormaPagamentoDescricao(String descricao_forma_pagamento);
+
 	
 
 }

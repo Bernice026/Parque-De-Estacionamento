@@ -4,6 +4,7 @@ import java.net.URI;
 import java.util.List;
 import java.util.Optional;
 
+
 import javax.transaction.Transactional;
 
 
@@ -30,6 +31,8 @@ import com.okayula.Parque_Estacionamento.repository.ParametrizacaoPagamentoRepos
 @RestController
 @RequestMapping("/para_pagamento")
 public class ParametrizacaoPagamentoController {
+	
+	
 	
 	@Autowired
 	private ParametrizacaoPagamentoRepository para_pg_Respository ;
@@ -99,6 +102,17 @@ public class ParametrizacaoPagamentoController {
 		}
 		return ResponseEntity.notFound().build();
 	}
+	
+	
+	
+	
+		
+
+	
+	
+	
+	
+	
 
 
 }
